@@ -1,0 +1,233 @@
+/* 1370px _____________________________________ breakpoint_____________________________________  */
+@media (max-width: 1370px) {
+  .navbar-collapse {
+    margin-left: 15vw !important;
+  }
+  header button {
+    width: 35% !important;
+    padding: 1vw !important;
+  }
+  .page__5 .row .card img {
+    width: 27% !important;
+  }
+  .page__7 .box .box__left,
+  .page__7 .box .box__right {
+    width: 49% !important;
+  }
+  .page__7 .box .box__left p,
+  .page__7 .box .box__right p {
+    font-size: 1.2vw !important;
+  }
+}
+
+/* 1200px_____________________________________breakpoint_____________________________________  */
+@media (max-width: 1200px) {
+  .navbar-collapse {
+    margin-left: 10vw !important;
+  }
+  /* header_____________________________________ */
+  .card-1 .card-title {
+    font-size: 1.4vw !important;
+  }
+  .card-1 .card-text {
+    font-size: 3.1vw !important;
+    width: 80% !important;
+  }
+  .card-1 .card-para {
+    width: 90% !important;
+    font-size: 1.6vw !important;
+  }
+  .card-1 button {
+    width: 60% !important;
+    padding: 1vw !important;
+    font-size: 1.6vw !important;
+  }
+  /*header_____________________________________*/
+  /* cards _____________________________________ */
+  .cards {
+    width: 80% !important;
+  }
+  .cards .card-body .card-text {
+    font-size: 1.3vw !important;
+  }
+  /* cards _____________________________________ */
+  /* pages_____________________________________  */
+  .page__1 h2,
+  .page__2 h2,
+  .page__3 h2,
+  .page__4 h2 {
+    font-size: 3.1vw !important;
+  }
+  .page__1 h3,
+  .page__2 h3,
+  .page__3 h3,
+  .page__4 h3 {
+    font-size: 2.4vw !important;
+  }
+  .page__1 h5,
+  .page__2 h5,
+  .page__3 h5,
+  .page__4 h5 {
+    font-size: 1.6vw !important;
+  }
+  /* _____________________________________ */
+  .page__5 > p {
+    font-size: 1.7vw !important;
+  }
+  .page__5 .row .card .card-title {
+    font-size: 1.2vw !important;
+  }
+  .page__7 .box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+  }
+  .page__7 .box .box__left,
+  .page__7 .box .box__right {
+    width: 100% !important;
+  }
+  .page__7 .box .box__left .left p,
+  .page__7 .box .box__right .left p {
+    font-size: 1.3vw !important;
+  }
+  footer .card-4 h3 {
+    font-size: 2vw !important;
+  }
+}
+/* 992px_____________________________________breakpoint_____________________________________*/
+@media (max-width: 992px) {
+  footer .container {
+    display: flex;
+    flex-direction: column;
+  }
+  footer .card {
+    width: 80% !important;
+  }
+  footer .card-4 h3 {
+    font-size: 1.2vw !important;
+  }
+}
+/* 580px_____________________________________breakpoint_____________________________________ */
+@media (max-width: 580px) {
+  header {
+    display: flex;
+    flex-direction: column !important;
+  }
+  .card-1 .card-title {
+    font-size: 3.4vw !important;
+  }
+  .card-1 .card-text {
+    font-size: 6.1vw !important;
+  }
+  .card-1 .card-para {
+    width: 90% !important;
+    font-size: 3.6vw !important;
+  }
+  .card-1 button {
+    width: 500% !important;
+  }
+  .card-1 button a {
+    padding: 10px 5px !important;
+    font-size: 14.6px !important;
+  }
+
+  .card-1 button {
+    width: 50% !important;
+    font-size: 1.5vw !important;
+  }
+  .cards {
+    width: 90% !important;
+  }
+  .cards .card {
+    border-bottom: 1px solid #dadada !important;
+  }
+  .cards .card-body h2 {
+    font-size: 3vw !important;
+    text-align: center !important;
+  }
+  .cards .card-body .card-text {
+    font-size: 2.9vw !important;
+    text-align: center !important;
+  }
+  .page__2 h2 {
+    font-size: 3.5vw !important;
+  }
+  .page__1 h2,
+  .page__2 h2,
+  .page__3 h2,
+  .page__4 h2,
+  .page__5 h2 {
+    font-size: 4.3vw !important;
+  }
+  .page__1 h3,
+  .page__2 h3,
+  .page__3 h3,
+  .page__4 h3 {
+    font-size: 3.9vw !important;
+  }
+
+  .page__5 .card-title {
+    display: none;
+  }
+  .page__1 p,
+  .page__2 p,
+  .page__3 p,
+  .page__4 p,
+  .page__5 p {
+    font-size: 2.3vw !important;
+  }
+  .box button {
+    width: 30% !important;
+  }
+  footer .card-1 .footer-logo a {
+    font-size: 2.2vw !important;
+  }
+  footer .card-4 h3 {
+    font-size: 2vw !important;
+  }
+  .page__5 h5 {
+    font-size: 9vw !important;
+  }
+  .page__5 .row .card img {
+    margin: auto !important;
+  }
+  .page__6 {
+    display: none !important;
+  }
+  .page__7 .box .box__left .left {
+    display: flex;
+    flex-direction: column !important;
+  }
+  .page__7 .box .box__right {
+    display: flex;
+    align-items: center;
+    justify-content: center !important;
+    flex-direction: column !important;
+  }
+  .page__7 .box .box__left .left p,
+  .page__7 .box .box__right .right p {
+    font-size: 3vw !important;
+    text-align: left !important;
+  }
+  .box {
+    width: 100% !important;
+    padding: 20px !important;
+  }
+  .box h2 {
+    font-size: 4vw !important;
+  }
+  .box button {
+    width: 40% !important;
+  }
+  footer .card-1 .footer-logo a {
+    font-size: 4.2vw !important;
+  }
+  footer .card-1 .icons {
+    font-size: 3.5vw !important;
+  }
+  footer .card-4 h3 {
+    font-size: 3vw !important;
+  }
+}
+/* the_____________________________________end_____________________________________ */

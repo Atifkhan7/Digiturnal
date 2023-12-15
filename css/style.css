@@ -1,0 +1,392 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none !important;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #414652;
+}
+
+/* .navbar _____________________________________style _____________________________________start  */
+.navbar {
+  background: #ffffff;
+}
+.container-fluid {
+  padding: 0px 3vw;
+}
+.navbar-collapse {
+  margin-left: 24vw;
+}
+.navbar-brand {
+  font-weight: 800;
+  color: #414652 !important;
+  padding-left: 0.4vw;
+}
+#navbarSupportedContent ul li a {
+  color: #2f3235 !important;
+  padding: 0px 1vw;
+}
+.buttons {
+  display: flex;
+  gap: 1vw;
+}
+/* navbar_____________________________________styling_____________________________________ end */
+/* header_____________________________________styling_____________________________________start */
+header {
+  width: 100%;
+  background: #f0f7ff;
+  padding: 4vw 0;
+}
+.card-1 {
+  padding-top: 5vw;
+}
+.card-1 .card-title {
+  font-size: 1vw;
+}
+.card-1 .card-text {
+  font-size: 2.6vw;
+  width: 70%;
+  padding: 2vw 0;
+}
+.card-1 .card-text span {
+  color: #1d80f5;
+}
+.card-1 .card-para {
+  width: 60%;
+  font-size: 1vw;
+  color: #6b6b6b;
+  padding-bottom: 3.2vw;
+}
+.card-1 button {
+  width: 30%;
+  font-size: 1vw;
+  color: #ffffff;
+}
+.card-2 {
+  height: 100%;
+  width: 100%;
+}
+.card-2 img {
+  width: 100%;
+}
+/* header _____________________________________styling_____________________________________end */
+/* .cards _____________________________________styling_____________________________________start */
+.cards {
+  border-radius: 25px;
+  width: 70%;
+  margin: auto;
+  margin-top: -1.6vw;
+  margin-bottom: 6vw;
+}
+.cards .card-body {
+  padding: 3vw;
+}
+.cards .card-body h2 {
+  font-size: 2.6vw;
+  color: #007aff;
+}
+.cards .card-body .card-text {
+  color: #6b6b6b;
+  font-size: 1vw;
+}
+/* cards_____________________________________style_____________________________________end */
+/* page1 _____________________________________styel_____________________________________ start  */
+.page__1 h2,
+.page__2 h2,
+.page__3 h2,
+.page__4 h2 {
+  text-align: center;
+  font-size: 2.3vw;
+  padding-bottom: 3vw;
+}
+.page__1 h3,
+.page__2 h3,
+.page__3 h3,
+.page__4 h3 {
+  font-size: 1.9vw;
+}
+.page__1 h5,
+.page__2 h5,
+.page__3 h5,
+.page__4 h5 {
+  font-size: 1vw;
+  padding-bottom: 1.3vw;
+}
+.page__1 p {
+  width: 80%;
+  font-size: 1vw;
+}
+.col .card-img {
+  width: 100%;
+}
+/* page1_____________________________________style_____________________________________end  */
+/* page2_____________________________________style_____________________________________start */
+.page__2 {
+  margin-top: 8vw;
+}
+.page__2 p {
+  width: 80%;
+  text-align: justify;
+  font-size: 1vw;
+}
+.col .card-img {
+  width: 100%;
+}
+/* page2_____________________________________ style_____________________________________ end */
+/* page3_____________________________________ style_____________________________________ start  */
+.page__3 {
+  margin-top: 8vw;
+}
+.page__3 p {
+  width: 80%;
+  text-align: left;
+  font-size: 1vw;
+}
+.col .card-img {
+  width: 100%;
+}
+/* page3_____________________________________ style_____________________________________ end  */
+/* page4_____________________________________ style_____________________________________ start */
+.page__4 {
+  margin-top: 8vw;
+}
+
+.page__4 p {
+  width: 80%;
+  text-align: left;
+  font-size: 1vw;
+}
+.col .card-img {
+  width: 100%;
+}
+/* page4_____________________________________ style_____________________________________ end  */
+/* page5_____________________________________ style_____________________________________ start */
+.page__5 {
+  margin-top: 2vw;
+  background: #f0f7ff;
+  padding: 5vw;
+}
+.page__5 h2 {
+  text-align: center;
+  font-size: 2.3vw;
+
+  color: #2f3235;
+}
+.page__5 p {
+  text-align: left;
+  font-size: 1vw;
+  padding-bottom: 3.4vw;
+}
+.page__5 .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.page__5 .row .card {
+  border-radius: 1vw;
+  padding: 1vw;
+}
+.page__5 .row .card img {
+  width: 20%;
+  margin-bottom: 1vw;
+  margin-left: 1vw;
+}
+/* page5_____________________________________ style_____________________________________ end  */
+/* page6_____________________________________ style_____________________________________ start */
+.page__6 {
+  padding: 1vw;
+}
+.page__6,
+.page__6 .col,
+.page__6 .col .card-body,
+.page__6 .col h2 {
+  background: #212529;
+}
+.page__6 .col h2 {
+  color: #ffffff;
+  font-size: 2vw;
+  padding-bottom: 3vw;
+  width: 90%;
+}
+
+.page__6 .col button {
+  margin-bottom: 1.3vw;
+}
+/* page6_____________________________________ style_____________________________________ end */
+/* page7_____________________________________ style_____________________________________ start  */
+
+.page__7 {
+  margin-top: 3vw;
+  width: 100%;
+  padding-bottom: 5vw;
+  border-bottom: 1px solid #e1e1e1 !important;
+}
+.page__7 h2 {
+  font-size: 2.3vw;
+  text-align: center;
+}
+.page__7 p {
+  font-size: 1vw;
+  text-align: center;
+  padding-bottom: 4vw;
+}
+.page__7 .box {
+  width: 90%;
+  margin: auto;
+  background: #f5f1f1;
+  padding: 2vw;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.page__7 .box .box__left,
+.page__7 .box .box__right {
+  border-radius: 20px;
+  width: 45%;
+  padding: 1vw;
+  background: #ffffff;
+}
+.page__7 .box .box__left .left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.page__7 .box .box__left .left p {
+  font-size: 0.8vw;
+  text-align: justify;
+  padding: 0;
+}
+.page__7 .box .box__right {
+  display: flex;
+  gap: 20px;
+}
+.page__7 .box .box__right .left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.page__7 .box .box__right p {
+  font-size: 0.8vw;
+  text-align: justify;
+  padding: 0;
+}
+/* page7_____________________________________ style _____________________________________end  */
+/* page8 _____________________________________style_____________________________________ start  */
+.page__8 {
+  margin-top: 3vw;
+  width: 100%;
+  padding-bottom: 2vw;
+  background: #cccccc48;
+  border-radius: 20px;
+
+  border-bottom: 10px solid red !important;
+}
+.page__8 h5 {
+  text-align: center;
+  color: #1d80f5;
+  cursor: pointer;
+  padding: 1.4vw 0;
+}
+.page__8 h2 {
+  text-align: center;
+  margin-bottom: 2.5vw;
+}
+/* page8_____________________________________ style_____________________________________ end */
+/* page9_____________________________________ style_____________________________________ start */
+.page__9 {
+  margin-top: 3vw;
+  width: 100%;
+  padding-bottom: 2vw;
+  padding-top: 2vw;
+  border-top: 3px solid #cccccc48 !important;
+}
+.page__9 h5 {
+  padding-left: 2vw;
+  padding-bottom: 1.2vw;
+}
+.page__9 h2 {
+  padding-left: 2vw;
+  padding-bottom: 1.2vw;
+}
+.page__9 .card-title {
+  padding: 0;
+}
+
+/* .page9_____________________________________ style_____________________________________ end*/
+/* .container_____________________________________ style_____________________________________ start */
+.box {
+  width: 80%;
+  background: #303440;
+  margin: auto;
+  margin-top: 4vw;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  padding: 2vw 0;
+  justify-content: space-around;
+}
+.box h2 {
+  font-size: 2vw;
+  width: 50%;
+  color: #ffffff;
+}
+.box button {
+  width: 20%;
+}
+/* .container_____________________________________ style_____________________________________ end */
+/* footer_____________________________________ style_____________________________________ start  */
+footer {
+  width: 100%;
+  background: #dbeafb;
+  padding-top: 4vw;
+}
+footer .container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+footer .card {
+  width: 23%;
+  padding: 10px;
+  background: #dbeafb;
+  border: none;
+}
+footer .card-1 .footer-logo a {
+  font-size: 1.2vw;
+  font-weight: 600;
+  margin-left: 1vw;
+}
+footer .card-1 p {
+  width: 90%;
+  margin-top: 1vw;
+}
+footer .card-1 .icons {
+  font-size: 1.5vw;
+}
+footer .card-1 .icons i {
+  padding: 0.2vw;
+  border-radius: 3px;
+  background: #007aff;
+  color: white;
+  cursor: pointer;
+}
+footer .card-4 h3 {
+  font-size: 1vw;
+}
+/* footer_____________________________________style_____________________________________end */
